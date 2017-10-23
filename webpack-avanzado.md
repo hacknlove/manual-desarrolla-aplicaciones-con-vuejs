@@ -34,7 +34,7 @@ Lógicamente, si hacemos esto, cuando lancemos el comando `webpack` en línea d
     ...
     "scripts": {
         "build:dev": "webpack --config ./build/webpack.dev.conf.js",
-        "build:pro": "webpack -- config .build/webpack.pro.conf.js"
+        "build:pro": "webpack -- config ./build/webpack.pro.conf.js"
     }
     ...
 }
